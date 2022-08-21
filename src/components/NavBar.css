@@ -1,0 +1,26 @@
+.NavBar{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    position: fixed;
+    list-style:none ;
+    background-color: rgb(104, 12, 12);
+    padding: 5px;
+}
+.NavBarItem{
+    padding-left: 40px;
+    padding-top: 5px;
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+    display: flex;
+}
+.NavBarItem:hover{
+    color:#FEBA56;
+}
+.NavBarItemBrand{
+    padding: 10px;
+    color:white;
+    text-decoration:none;
+    font-size: 30px;
+}
